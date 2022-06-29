@@ -148,7 +148,7 @@ C-----------------------------------------------------------------------
          USE CGRID_SPCS          ! CGRID mechanism species
          USE DEPVVARS
          USE UTILIO_DEFN
-         USE MOSAIC_MOD, Only: Init_Mosaic
+         USE MOSAIC_MODS, Only: Init_Mosaic
          USE LSM_MOD, Only: Init_LSM, n_lufrac
          USE BIDI_MOD, Only: Init_Bidi, HgBidi
 

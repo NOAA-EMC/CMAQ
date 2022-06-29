@@ -87,7 +87,7 @@ C-----------------------------------------------------------------------
       USE UTILIO_DEFN      
       USE AERO_DATA           ! aero variable data
       USE AEROMET_DATA        ! Includes CONST.EXT
-      USE Mosaic_Mod, Only: ADEPVJ  ! Shared mosaic variables
+      USE MOSAIC_MODS, Only: ADEPVJ  ! Shared mosaic variables
       Use LSM_Mod, Only: N_LUFRAC
       USE ASX_DATA_MOD, Only: Met_Data
 
