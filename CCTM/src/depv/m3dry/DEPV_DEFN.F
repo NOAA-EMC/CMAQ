@@ -148,7 +148,7 @@ C-----------------------------------------------------------------------
          USE CGRID_SPCS          ! CGRID mechanism species
          USE DEPVVARS
          USE UTILIO_DEFN
-         USE MOSAIC_MOD, Only: Init_Mosaic
+         USE MOSAIC_MODS, Only: Init_Mosaic
          USE LSM_MOD, Only: Init_LSM, n_lufrac
          USE BIDI_MOD, Only: Init_Bidi, HgBidi
 
@@ -671,7 +671,7 @@ C-----------------------------------------------------------------------
          USE CGRID_SPCS          ! CGRID mechanism species
          USE DEPVVARS
          USE UTILIO_DEFN
-         USE Mosaic_Mod
+         USE MOSAIC_MODS
          USE Bidi_Mod, Only: HgBidi
          USE LSM_Mod,  Only: n_lufrac
          USE ASX_DATA_MOD, Only: GRID_DATA, MOSAIC_DATA

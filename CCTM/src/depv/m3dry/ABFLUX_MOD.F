@@ -522,7 +522,7 @@ C-------------------------------------------------------------------------------
          Use UTILIO_DEFN
          Use Bidi_Mod, Only: gamma1, gamma2, MHp1, MHp2
          Use ASX_DATA_MOD
-         Use Mosaic_Mod
+         Use MOSAIC_MODS
          Use LSM_MOD
          
          Implicit None

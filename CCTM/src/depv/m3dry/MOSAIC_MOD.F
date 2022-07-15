@@ -22,7 +22,7 @@ C RCS file, release, date & time of last delta, author, state, [and locker]
 C $Header: /project/work/rep/arc/CCTM/src/depv/m3dry/MOSAIC_MOD.F,v 1.6 2012/03/28 16:11:09 yoj Exp $
 
 c:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-      Module MOSAIC_MOD
+      Module MOSAIC_MODS
       
 C Contains the shared variables and subrountes needed estimated the resistances
 C from natural and agricultrual lands for NH3 bidirectional flux
@@ -587,4 +587,4 @@ C local volatile variable
          Return
          End Subroutine RA_WRF
       
-      End Module Mosaic_Mod
+      End Module MOSAIC_MODS

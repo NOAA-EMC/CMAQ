@@ -157,7 +157,7 @@ C-------------------------------------------------------------------------------
 #endif     
       Use ABFlux_Mod     ! bidi NH3 exchange routines
       Use LSM_Mod        ! land surface model variables needed for mosaic and bidi
-      Use Mosaic_Mod     ! contains mosaic routines
+      Use MOSAIC_MODS     ! contains mosaic routines
       Use ASX_DATA_MOD   ! contains CONSTANTS include
       Use BIDI_MOD, only:HGBIDI    ! contains CONSTANTS include
       Use HGSIM
